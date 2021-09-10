@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+	<title>Fibonacci Sequencer</title>
+	<script type="text/javascript" src="fibonacci.js"></script>
+</head>
+<body>
+	<h1 style="font-size: 18px; color: darkviolet;">Fibonacci Sequencer</h1>
+	<div>Insert the length of the sequence you would like to get<span style="color: red;">*</span>:</div>
+	<input type="text" id="howFar" />
+	<button onClick="getFibonacci();">Go!</button>
+	<div style="margin-left: 25px; margin-top: 25px;">
+		[ <span id="result"></span> ]
+	</div>
+
+	<div style="color: #BB0000; margin-top: 70px;"><span style="color: red;">*</span>: 0 to 30 is recommended, higher numbers produce results not very legible, and <em>really</em> high numbers can hang your browser as it strains to produce the sequence.</div>
+</body>

@@ -1,0 +1,32 @@
+.container {
+  picture {
+    display: block;
+    min-width: 266px;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    background: #e0e0e0;
+    img {
+      width: 100%;
+    }
+  }
+  h2 {
+    margin: 0;
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "SuecaSlab", "Georgia", "serif";
+    a {
+      color: black;
+      text-decoration: none;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  h4 {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #5a5a5a;
+  }
+};

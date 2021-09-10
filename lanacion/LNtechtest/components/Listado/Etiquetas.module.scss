@@ -1,0 +1,24 @@
+.container {
+  margin-bottom: 20px;
+  a {
+    font-size: 0.875rem;
+    margin-right: 17px;
+    display: inline-block;
+    position: relative;
+    color: #0074c4;
+    margin-bottom: 10px;
+    text-decoration: none;
+    &::after {
+      content: '·';
+      display: inline-block;
+      position: absolute;
+      color: #006998;
+      right: -14px;
+      font-size: 1.5625rem;
+      line-height: 15px;
+    }
+    &:last-of-type::after {
+      display: none;
+    }
+  }
+}
